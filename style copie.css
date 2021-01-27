@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+#accueil{
+background: url(accueil.svg) no-repeat center/cover;
+width: 100%;
+
+ height: 700px; 
+
+display: flex;
+justify-content: center;
+color: white;
+flex-direction: column;
+
+font-weight: 500px;
+}
+#accueil>a>img{
+    position: fixed;
+    top: 20px;
+    display: block;
+    height: auto;
+    width: 80px;
+    
+    left: 40px;
+
+}
+
+header{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+} 
+h1{
+font-size: 9rem;
+
+}
+
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex>ul{
+    display: flex; 
+    
+    
+}
+
+.menu a{
+    
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70px;
+   margin-bottom: 80px;
+   
+}  
+h3{
+    font-size: 4rem;
+    font-weight: lighter;
+   
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+   
+}
+button{
+    width: 15%;
+    height: 65px;
+    background: #660708; 
+    border: #660708; 
+    color: white;
+    font-size: 2.5rem;
+    
+   
+    
+}
+
+
+header nav ul li a{
+    display: flex;
+    justify-content: space-between;
+}
+
+#annonces{
+    width: 100%;
+height: 650px;
+background-color: white;
+
+}
+figure{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+align-items: center;
+
+
+}
+figcaption{
+    width: 330px;
+    height: 450px;
+    background: #C4C4C4;
+    
+   text-align: center;
+   margin-top: 70px;
+}
+figcaption>img{
+    width: 330px;
+    height: 265px;
+    object-fit: cover;
+
+}
+figcaption>p{
+    margin-top: 20px;
+}
+figcaption>button{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+h4{
+    font-size: 4rem;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+#annonces>hr{
+ margin-left: 40px;
+ width: 300px;
+ 
+ border: 2px solid black;
+}
+
+figcaption>button{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#slide-show>img{
+    width: 100%;
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer contact */
+
+footer{
+    background-color: black;
+    height: 605px;
+
+}
+footer h2{
+    color: white;
+    font-size: 5rem;
+    
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20px; */
+}
+.form{
+    color: #6D6D6D;
+    font-size: 3rem;
+    display: flex;
+    font-weight: 200;
+    flex-direction: column;
+    margin-left: 50px;
+    
+
+}
+footer .form p{
+  
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+ hr{
+    width: 80%;
+      margin-bottom: 50px;
+     
+    
+}
+
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: lighter;
+}
