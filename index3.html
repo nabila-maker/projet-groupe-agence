@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="style copie.css">
     <link rel="icon" type="souris.png"
         href="souris.png" />
-
+                
+         <script src="https://kit.fontawesome.com/a076d05399.js%22%3E" ></script> 
     <title>projetagence3</title>
 </head>
 <body>
@@ -21,9 +22,9 @@
         </div>
         <ul>
             <li><a href="#accueil">Home</a></li>
-            <li><a href="#annonces">Best-sellers</a></li>
-            <li><a href="#">Slideshow</a></li>
-            <li><a href="#">Contact</a></li> 
+            <li><a href="#Best-Sellers">Best-Sellers</a></li>
+            <li><a href="#slide-show">Slideshow</a></li>
+            <li><a href="#contact">Contact</a></li> 
         </ul>
     </nav>    
     <section id="accueil"> 
@@ -31,12 +32,13 @@
         <h3>A path to the darkest places on earth </h3>
 
         <div class="button">
+                <a href="#Best-Sellers"></a>
             <button>Book Now</button>
         </div>
     </section>
 
     
-    <div>
+    <div id="Best-Sellers">
         <h4>Best-sellers</h4> 
        <hr>
     </div>
@@ -53,7 +55,7 @@
                 Genocide Museum which is the most 
                 haunted place in the heart of Phnom Penh, 
                 Cambodia. Join us if you dare !</p> 
-                <button>A partir de 135€</button>
+                <button>From 135 €</button>
             </figcaption>
             
             <figcaption>
@@ -66,7 +68,7 @@
                 haunted place in the heart of Phnom Penh, 
                 Cambodia. Join us if you dare !</p> 
 
-            <button>A partir de 135€</button>
+            <button>From 135 €</button>
             </figcaption>
 
             <figcaption>
@@ -77,74 +79,12 @@
                 Genocide Museum which is the most 
                 haunted place in the heart of Phnom Penh, 
                 Cambodia. Join us if you dare !</p> 
-                <button>A partir de 135€ </button>
+                <button>From 135 € </button>
             </figcaption>
             
         </figure>
 
     
-    
-    <!-- <section> -->
-        <!-- <div class="slide-show">
-            <h4>Slide show</h4> 
-            <hr>
-        </div> -->
-
-        <!-- Image slider start -->
-        <!-- <div class="slider"> -->
-            <!-- <div class="slides"> -->
-
-                <!-- radio buttons start -->
-                <!-- <input type="radio" name="radio-btn" id="radio1"> -->
-                <!-- <input type="radio" name="radio-btn" id="radio2"> -->
-                <!-- <input type="radio" name="radio-btn" id="radio3"> -->
-                <!-- <input type="radio" name="radio-btn" id="radio4"> -->
-                
-                <!-- radio button end -->
-            
-                <!-- slide images start -->
-                <!-- <div class="slide first"> -->
-                    <!-- <img src="chateau.png" alt=""> -->
-                <!-- </div> -->
-                <!-- <div class="slide second"> -->
-                    <!-- <img src="Monte_Cristo_Homestead 1.jpg" alt=""> -->
-                <!-- </div> -->
-               <!-- <div class="slide third"> -->
-                    <!-- <img src="prison.jpg" alt=""> -->
-                <!-- </div> -->
-                <!-- <div class="slide fourth"> -->
-                    <!-- <img src="plantation.jpg" alt=""> -->
-                <!-- </div> -->
-
-                <!-- slide images end -->
-
-                <!-- automatic navigation start -->
-                <!-- <div class="navigation-auto"> -->
-                    <!-- <div class="auto-btn1"></div> -->
-                    <!-- <div class="auto-btn2"></div> -->
-                    <!-- <div class="auto-btn3"></div> -->
-                    <!-- <div class="auto-btn4"></div> -->
-                <!-- </div> -->
-                <!-- automatic navigation end -->
-            
-            <!-- </div> -->
-            <!-- manual navigation start -->
-           <!-- <div class="navigation-manual"> -->
-                <!-- <label for="radio1" class="manual-btn"></label> -->
-                <!-- <label for="radio2" class="manual-btn"></label> -->
-                <!-- <label for="radio3" class="manual-btn"></label> -->
-                <!-- <label for="radio4" class="manual-btn"></label> -->
-            <!-- </div> -->
-        
-            <!-- Image slider end -->
-        <!-- </div> -->
-
-    <!-- </section> -->
-
-
-
-    <!-- Image slider end -->
-
 
 
    <section id="slide-show">
@@ -152,14 +92,33 @@
     
    </section>
          
- <footer>
+ <footer id="contact">
 
+    <h1>Contact</h1>
+    
+   
   
+    <form action="" class="flex" method="POST" >
+        <input type="text" placeholder="Name *" name="nom" required > 
+        <input type="email" placeholder="Email *"  name="email" required>
+        <textarea placeholder="Your message *"  name="message" required></textarea>
+        <input type="submit" value="Send">
+        
 
-            
+    </form>
 
-           
+    <div class="social-network">
+        <p>&#169 Haunted Holiday-2021</p>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i><img src="facebook.png" alt="facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"><img src="twitter.png" alt="twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"><img src="linkedin.png" alt="linkedin"></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i><img src="instagram.png" alt="instagram"></a></li>
+            </ul>
+        </div>
+          
 
+    
 
 
         </footer> 
@@ -167,9 +126,8 @@
    
 
     <script src="main.js">
-       // gsap.from('h1',{delay:1,opacity:0,duration:1.5,y:"-50",ease:"power1.out"});
-      //  gsap.from('h3',{delay:1,opacity:0,duration:1.5,y:"50",ease:"power1.out"});
-       // gsap.from('img',{delay:1,opacity:0,duration:10.5,y:"-50",ease:"power4.out"});
+
+     
     </script>
 </body>
 </html>
