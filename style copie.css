@@ -107,6 +107,7 @@ body {
     top: 0px;
     background: black; 
     transition: background 0.4s;
+    z-index: 1;
 }
 
 #mainNav ul {
@@ -139,7 +140,7 @@ section {
     
     background: url("accueil.svg") no-repeat center/cover;
     width: 100%;
-    height: 600px;
+    height: 710px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -171,7 +172,7 @@ h3{
 }
 
 button {
-    width: 15%;
+    width: 150px;
     height: 65px;
     background: #660708; 
     border: #660708; 
@@ -253,14 +254,83 @@ cursor: pointer;
 
 
 #slide-show{
-    background: url("escalier.jpg") no-repeat center/cover;
+    background:url("escalier\ 1.jpg") no-repeat center/cover;
 
     height: 500px;
     width: 100%;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
     
   
 }
+
+
+#slide-show{
+    color: white;
+}
+
+#slide-show>div>.slider>.slides>.slide>img{
+  height: 400px;
+  width: 870px;
+  object-fit: cover;
+
+  
+}
+.slide{
+  float: left;
+}
+.slides{
+  width: calc(870px * 4);
+  height: 400px;
+  animation: glisse 40s infinite;
+
+}
+.slider{
+  width: 870px;
+  height: 400px;
+  overflow: hidden;
+}
+
+@keyframes glisse{
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  
+  33%{
+    transform: translateX(-870px);
+  }
+  66%{
+    transform: translateX(-1740px);
+  }
+  99%{
+    transform: translate(-2610px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     width: 100%;
     height: 500px;
@@ -314,6 +384,14 @@ form > *:last-child {
     font-weight: 900;
     font-size:24px;
     color: white;
+}
+form > *:last-child:hover {
+
+    cursor: pointer;
+    background: rgb(17, 16, 16);
+
+border: #660708 2px solid;
+
 }
 
 .social-network {
