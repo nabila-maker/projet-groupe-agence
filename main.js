@@ -18,7 +18,7 @@ if (window.pageYOffset > 0) {
 
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides = slideIndex;
 
 // Next/previous controls
 function plusSlides(n) {
